@@ -3,22 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="./contato.css">
-    <link rel="stylesheet" href="./sobre.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="contato.css">
+    <link rel="stylesheet" href="sobre.css">
     <title>Afago Atelier</title>
 </head>
 <body>
-    <header>
-        <img src="./img/Afago-logo.png" alt="Afago-logo">
-        <nav>
-                <a href="#home">Home</a>
+
+    <!-----header design----->
+
+    <header class="header">
+        <img class="logo" src="./img/Afago-logo.png" alt="Afago-logo">
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+                <a href="#home" class="active">Home</a>
                 <a href="#sobre">Sobre</a>
                 <a href="#serviços">Serviços</a>
                 <a href="#galeria">Galeria</a>
-                <a href="">Endereço</a>
+                <a href="#endereço">Endereço</a>
         </nav>
     </header>
+
+    <!-----home section design----->
+
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Olá, Eu sou a Maria</h3>
+            <h1>Sejam bem-vindos ao meu Ateliê</h1>
+            <p>Está procurando uma costureira habilidosa e confiável? Oferecemos serviços de alta qualidade para todas as suas necessidades de costura. Desde ajustes e consertos até a confecção de peças sob medida, garantimos um trabalho impecável e um atendimento personalizado.</p>
+            <div class="social-media">
+                <a href="#"><i class='bx bxl-whatsapp'></i></a>
+                <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+                <a href="#"><i class='bx bxl-facebook'></i></a>
+                <a href="#"><i class='bx bxl-twitter'></i></a>
+            </div>
+            <a href="#" class="btn">Pedir Orçamento</a>
+        </div>
+
+        <div class="home-img">
+            <img src="img/costureira.jpg" alt="costureira">
+        </div>
+    </section>
+
+    <!-----about section design----->
+
 </body>
 <script src="./scrip.js"></script>
 </html>
