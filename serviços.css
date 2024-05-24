@@ -1,0 +1,48 @@
+
+
+
+.serviços-tittle{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.serviços-tittle h2{
+    font-size: 4rem;
+}
+
+.conteiner{
+    display: flex;
+    gap: 7rem;
+    text-align: center;
+    justify-content: center;
+    
+}
+
+.uniformes-img{
+    
+    max-width: 125px;
+    background-color: rgb(217, 167, 202, 0.30);
+    border-radius: 3px;
+}
+
+.bordado-img{
+    
+    max-width: 125px;
+    background-color: rgb(217, 167, 202, 0.30);
+    border-radius: 3px;
+}
+
+.roupas-img{
+    max-width: 125px;
+    background-color: rgb(217, 167, 202, 0.30);
+    border-radius: 3px;
+}
+
+.roupa-mesa-img{
+    max-width: 125px;
+    background-color: rgb(217, 167, 202, 0.30);
+    border-radius: 3px;
+}
