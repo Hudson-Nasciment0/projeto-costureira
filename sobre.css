@@ -1,36 +1,30 @@
-
-.sobre{
+.about{
     display: flex;
-    margin: auto;
     justify-content: center;
     align-items: center;
     gap: 2rem;
-    
 }
 
-
-.logo-sobre{
-    height: 50vh;
-    border-radius: 10px;
+.about-img img{
+    width: 20vw;
 }
 
-.sobre-descrição h2 {
-    font-size: 4rem;
-    line-height: 1.2;
+.heading{
     text-align: center;
-    
+    font-size: 4.5rem;
 }
 
-.sobre-descrição p {
-    font-size: 1.2rem;
+.about-content h2{
+    font-size: 3.2rem;
+    text-align: left;
+    line-height: 1.2;
+}
+
+span{
+    color: var(--main-color);
+}
+
+.about-content p{
+    font-size: 1.6rem;
     margin: 2rem 0 3rem;
-    
 }
-
-
-
-
-
-
-
-

@@ -8,24 +8,24 @@
     justify-content: space-between;
     align-items: center;
     z-index: 100;
-    background-color: #fff;
+    background-color: var(--green-color);
 }
 
 .logo{
-    width: 10%;
+    width: 8%;
     cursor: default;
 }
 
 .navbar a{
     font-size: 1.7rem;
-    color: var(--main-color);
+    color: #fff;
     margin-left: 4rem;
     transition: .3s;
 }
 
 .navbar a:hover,
 .navbar a.active{
-    color: var(--second-color);
+    color: var(--main-color);
 }
 
 #menu-icon{
