@@ -19,11 +19,17 @@
 .galeria .gallery-container .box{
     text-align: center;
     padding: 5rem;
-    border:1px solid var(--main-color);
-
+    border:3px solid var(--main-color);
+    border-radius: 3px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
 }
 .galeria .gallery-container .box img{
-    height: 20rem;
+    height: 30rem;
+    border-radius: 4px;
+}
 
+.seringa{
+    position: relative;
+    right: 10%;
 }
 
