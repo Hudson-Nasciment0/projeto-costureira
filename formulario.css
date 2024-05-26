@@ -8,7 +8,8 @@
     width: 34rem;
     position: fixed;
     left: -325px;
-    
+    transition: left 1s linear;
+    z-index: 4;
     
 }
 
@@ -49,3 +50,4 @@ textarea{
     box-shadow: none;
 
 }
+
