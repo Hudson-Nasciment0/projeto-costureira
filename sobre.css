@@ -9,13 +9,7 @@
     width: 20vw;
 }
 
-.heading{
-    text-align: center;
-    font-size: 4.5rem;
-}
-
 .about-content h2{
-    font-size: 3.2rem;
     text-align: left;
     line-height: 1.2;
 }

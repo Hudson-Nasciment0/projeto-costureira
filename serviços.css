@@ -1,48 +1,40 @@
+.serviços h2{
+    margin-bottom: 2rem; 
+}
 
+.serviços-img{
+    width: 50px;
+}
 
-
-.serviços-tittle{
+.serviços-container{
     display: flex;
-    margin: auto;
     justify-content: center;
     align-items: center;
-    
+    flex-wrap: wrap;
+    gap: 2rem;
 }
 
-.serviços-tittle h2{
-    font-size: 4rem;
-}
-
-.conteiner{
-    display: flex;
-    gap: 7rem;
+.serviços-container .serviços-box{
+    flex: 1 1 30rem;
+    background: var(--second-color);
+    padding: 3rem 2rem 4rem;
+    border-radius: 2rem;
     text-align: center;
-    justify-content: center;
-    
+    border: .2rem solid var(--main-color);
+    transition: .5s ease;
 }
 
-.uniformes-img{
-    
-    max-width: 125px;
-    background-color: rgb(217, 167, 202, 0.30);
-    border-radius: 3px;
+.serviços-container .serviços-box:hover{
+    border-color: var(--main-color);
+    box-shadow: 0 0 1rem var(--main-color);
+    transform: scale(1.02);
 }
 
-.bordado-img{
-    
-    max-width: 125px;
-    background-color: rgb(217, 167, 202, 0.30);
-    border-radius: 3px;
+.serviços-box h3{
+    font-size: 1.8rem;
 }
 
-.roupas-img{
-    max-width: 125px;
-    background-color: rgb(217, 167, 202, 0.30);
-    border-radius: 3px;
-}
-
-.roupa-mesa-img{
-    max-width: 125px;
-    background-color: rgb(217, 167, 202, 0.30);
-    border-radius: 3px;
+.serviços-box p{
+    font-size: 1.3rem;
+    margin: 1rem 0 3rem;
 }
