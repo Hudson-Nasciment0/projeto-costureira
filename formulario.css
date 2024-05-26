@@ -1,0 +1,51 @@
+.fale-conosco{
+    background-color:pink;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 10px;
+    gap: 20px;
+    width: 34rem;
+    position: fixed;
+    left: -325px;
+    
+    
+}
+
+input{
+    height: 40px;
+    border-radius: 3px;
+    border: 1px solid gray;
+    padding-left: 10px;
+    outline-color: var(--main-color) ;
+    width: 30rem;
+}
+
+textarea{
+    height: 90px;
+    width: 300px;
+    border-radius: 3px;
+    border: 1px solid gray;
+    padding: 10px;
+    outline-color: var(--main-color) ;
+    width: 30rem;
+}
+
+.button-form{
+    display: inline-block;
+    padding: 1rem 2.8rem;
+    background: var(--main-color);
+    border-radius: 4rem;
+    box-shadow: 0 0 1rem var(--main-color);
+    font-size: 1.6rem;
+    color: var(--second-color);
+    letter-spacing: .1rem;
+    font-weight: 600;
+    transition: .5s ease-in-out;
+    margin: auto;
+}
+
+.button-form:hover{
+    box-shadow: none;
+
+}
