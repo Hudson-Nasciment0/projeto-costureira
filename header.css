@@ -4,12 +4,15 @@
     left: 0;
     width: 100%;
     padding: 2rem 9%;
+    background: #fff;
     display: flex;
     justify-content: space-between;
     align-items: center;
     z-index: 100;
-    background-color: #fff;
-    z-index: 3;
+}
+
+.header.sticky{
+    border-bottom: .1rem solid rgba(0, 0, 0, .2);
 }
 
 .logo{
