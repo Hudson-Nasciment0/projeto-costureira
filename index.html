@@ -58,11 +58,16 @@
 
         <!--Formulário design-->
 
-        <form class="fale-conosco">
-            <input placeholder="Seu nome" type="text">
-            <input placeholder="Seu telefone (Whatsapp)" type="tel">
-            <textarea placeholder="Digite seu problema aqui"></textarea>
-            <button onclick="sumir()" class="button-form">Enviar formulário</button>
+        <form class="fale-conosco"
+        
+            action="https://formcarry.com/s/6y7aocm0I1n"
+            method="POST"
+            enctype="multipart/form-data">
+
+            <input placeholder="Seu nome" type="text" name="nome" required>
+            <input placeholder="Seu telefone (Whatsapp)" type="tel" name="telefone" required>
+            <textarea placeholder="Digite seu problema aqui" name="duvida" required></textarea>
+            <button type="submit" onclick="sumir()"  class="button-form">Enviar formulário</button>
         </form>
 
         <div class="mascara-form"></div>

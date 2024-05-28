@@ -16,7 +16,7 @@ let sumirFormulario = document.querySelector(".fale-conosco")
 console.log(sumirFormulario)
 
 function sumir(){
-    sumirFormulario.style.left = "-325px"
+    sumirFormulario.style.left = "-316px"
     mascara.style.visibility = "hidden"
 }
 
