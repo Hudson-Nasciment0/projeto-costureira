@@ -6,7 +6,7 @@
 }
 
 .about-img img{
-    width: 20vw;
+    border-radius: 4px;
 }
 
 .about-content h2{

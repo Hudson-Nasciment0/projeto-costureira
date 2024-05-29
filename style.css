@@ -37,11 +37,21 @@ section{
     html{
         font-size: 55%;
     }
+
+    .home-content{
+        margin-top: 10%;
+    }
+
 }
+@media (max-width: 1050px) {
+    .fale-conosco{
+        margin-left: -241px;}
+    }
 
 @media (max-width: 991px) {
     .header{
         padding: 2rem 3%;
+        height: 16%;
     }
 
     section {
@@ -134,8 +144,28 @@ section{
 }
 
 @media (max-width: 450px) {
+    .fale-conosco{
+        margin-left: -540px;
+   
+    }
+    .mascara-form{
+        display: none;
+
+    }
+    .logo{
+        width: 100px;
+    }
+}
+
+@media (max-width: 450px) {
     html{
         font-size: 50%;
+    }
+}
+
+@media (max-width: 390px) {
+    .fale-conosco{
+        margin-left: -425px;
     }
 }
 
@@ -156,6 +186,11 @@ section{
         text-align: center;
         margin-top: 2rem;
     }
+    
+    .fale-conosco{
+
+         margin-left: -425px;}
+
 }
 
 
