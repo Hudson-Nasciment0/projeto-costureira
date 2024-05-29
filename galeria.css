@@ -1,5 +1,5 @@
 .galeria h2{
-    margin-bottom: 2rem;    
+    margin-bottom: 4rem;    
 }
 
 .galeria-container{
@@ -20,5 +20,10 @@
 .galeria-box img{
     width: 100%;
     height: 30rem;
+    transition: .5s ease-in-out;
+}
+
+.galeria-box:hover img{
+    transform: scale(1.1);
 }
 
