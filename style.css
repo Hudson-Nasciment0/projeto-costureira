@@ -174,10 +174,23 @@ section{
     }
 }
 
+@media (max-width: 380px) {
+
+    .fale-conosco{
+        margin-left: -530px;
+    }
+}
+
 @media (max-width: 365px) {
+
+    .fale-conosco{
+        margin-left: -535px;
+    }
+
     .home-img img{
         width: 90vw;
     }
+    
 
     .about-img img{
         width: 90vw;
@@ -192,9 +205,6 @@ section{
         margin-top: 2rem;
     }
     
-    .fale-conosco{
-         margin-left: -425px;}
+   
 }
-
-
 
