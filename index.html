@@ -6,10 +6,33 @@
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="./contato.css">
     <link rel="stylesheet" href="./sobre.css">
+    <link rel="stylesheet" href="whatsapp.css">
     <title>Afago Atelier</title>
 </head>
 <body>
     
+    <div class="container">
+        <h2>Contact Us</h2>
+        <p>Leave your message and we will get back to you shortly</p>
+        <form action="">
+            <div>
+                
+                    <label for="name">Name</label><br/>
+                    <input id="name" type="text" placeholder="full Name">
+                </span>
+                <span>
+                    <label for="email">Email</label><br/>
+                    <input id="email" type="email" placeholder="Email">
+                </span>
+            </div>
+            <label for="message">Your Message</label><br/>
+            <textarea name="" id="message" rows="10" placeholder="Your message"></textarea>
+            <button onclick="sendtoWhatsapp()">Submit</button>
+        </form>
+    </div>
+
+<script src="whatsapp.js"></script>
+
 </body>
 <script src="./scrip.js"></script>
 </html>
