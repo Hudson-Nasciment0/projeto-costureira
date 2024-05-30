@@ -20,6 +20,18 @@ function sumir(){
     mascara.style.visibility = "hidden"
 }
 
+function enviarWhatsApp() {
+
+    const nome = document.getElementById('nome').value
+    const telefone = document.getElementById('telefone').value
+    const duvida = document.getElementById('duvida').value
+  
+    const mensagem = `Nome: ${nome} - Telefone: ${telefone} - Dúvida: ${duvida}`
+    const numero = '556481339346'
+  
+    window.open(`https://wa.me/${numero}?text=${mensagem}`, '_blank')
+}
+
 
 
 
