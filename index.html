@@ -7,9 +7,26 @@
     <link rel="stylesheet" href="./contato.css">
     <link rel="stylesheet" href="./sobre.css">
     <title>Afago Atelier</title>
+    <style>
+        body{
+            background: black;
+            color: white;
+        }
+    </style>
 </head>
 <body>
-    
+    <div class="concactform">
+        <form action="">
+          <input type="text" id="name" placeholder="digite seu nome"><br/>
+          <input type="text" id="mobile" placeholder="seu telefone"><br/> 
+          <textarea id="message" cols="25" rows="5"></textarea><br/>
+          <input type="submit" value="Send Enquiry"><br/>
+        </form>
+    </div>
+    <script>
+    function whatsapp(){
+        var name = document.getElementById("name").value;
+    }
+    </script>
 </body>
-<script src="./scrip.js"></script>
 </html>
