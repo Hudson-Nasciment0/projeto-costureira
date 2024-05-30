@@ -20,12 +20,21 @@
           <input type="text" id="name" placeholder="digite seu nome"><br/>
           <input type="text" id="mobile" placeholder="seu telefone"><br/> 
           <textarea id="message" cols="25" rows="5"></textarea><br/>
-          <input type="submit" value="Send Enquiry"><br/>
+          <input type="submit" onclick="whatsapp()" value="Send Enquiry"><br/>
         </form>
     </div>
     <script>
     function whatsapp(){
         var name = document.getElementById("name").value;
+        var mobile = document.getElementById("mobile").value;
+        var message = document.getElementById("message").value;
+        
+        var whatsapppurl="wa.me/556481339346?text="
+        + "Name of Customer:" +name+"%0a"
+        + "Mobile No.:" +mobile+"%0a"
+        + "Message:" +message+"%0a"
+
+        window.open(whatsapppurl,"_blank").focus()
     }
     </script>
 </body>
