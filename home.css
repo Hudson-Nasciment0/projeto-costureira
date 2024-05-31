@@ -1,3 +1,12 @@
+.bet{
+    font-family: "Dancing Script", cursive;
+    font-size: 5rem;
+}
+
+strong{
+    font-weight: 400;
+}
+
 .home{
     display: flex;
     justify-content: center;
@@ -56,7 +65,7 @@
     border-radius: 4rem;
     box-shadow: 0 0 1rem var(--main-color);
     font-size: 1.6rem;
-    color: var(--second-color);
+    color: #ffffff;
     letter-spacing: .1rem;
     font-weight: 600;
     transition: .5s ease-in-out;

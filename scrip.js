@@ -27,7 +27,7 @@ function enviarWhatsApp() {
     const duvida = document.getElementById('duvida').value
   
     const mensagem = `Nome: ${nome} - Telefone: ${telefone} - Digite sua necessidade: ${duvida}`
-    const numero = '556481339346'
+    const numero = '5522981241625'
   
     window.open(`https://wa.me/${numero}?text=${mensagem}`, '_blank')
 }

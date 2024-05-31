@@ -35,9 +35,9 @@ textarea{
 .button-form{
     display: inline-block;
     padding: 1rem 2.8rem;
-    background: var(--second-color);
+    background: white;
     border-radius: 4rem;
-    box-shadow: 0 0 1rem var(--second-color);
+    box-shadow: 0 0 1rem white;
     font-size: 1.6rem;
     color: var(--main-color);
     letter-spacing: .1rem;
@@ -48,6 +48,5 @@ textarea{
 
 .button-form:hover{
     box-shadow: none;
-
 }
 
