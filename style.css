@@ -141,7 +141,12 @@ section{
     }
 }
 
+/*BREAKPOINTS*/
+
 @media (max-width: 700px){
+    .galeria-box img{
+        height: 25rem;
+    }
     .endereço iframe{
         width: 400px;
         height: 250px;

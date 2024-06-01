@@ -27,3 +27,14 @@
     transform: scale(1.1);
 }
 
+@media (max-width: 700px){
+    .galeria-box img{
+        height: 20rem;
+    }
+}
+
+@media (max-width: 530px){
+    .galeria-box img{
+        height: 15rem;
+    }
+}
