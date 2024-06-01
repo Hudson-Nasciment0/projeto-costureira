@@ -74,9 +74,15 @@ telefone.addEventListener("input", () => {
     telefone.value = numeroFormatado;
 });
 
+// button de fechar formulario!
 
+    let fecharFormulario = document.querySelector(".fale-conosco")
 
-
+    
+    function fecharForm(){
+        formulario.style.left = "-316px"
+        mascara.style.visibility = "hidden"
+    }
 
 
 
