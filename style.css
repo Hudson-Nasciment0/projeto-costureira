@@ -135,6 +135,10 @@ section{
     .galeria-container{
         grid-template-columns: repeat(2, 1fr);
     }
+    .fale-conosco{
+        margin-left: -413px;
+   
+    }
 }
 
 @media (max-width: 700px){
