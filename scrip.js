@@ -80,10 +80,10 @@ telefone.addEventListener("input", () => {
 
     
     function fecharForm(){
-        formulario.style.left = "-316px"
+        fecharFormulario.style.left = "-316px"
         mascara.style.visibility = "hidden"
     }
 
-
+    console.log(fecharFormulario)
 
 
