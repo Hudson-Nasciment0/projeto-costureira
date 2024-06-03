@@ -29,3 +29,12 @@
     font-size: 2.4rem;
     color: var(--main-color);
 }
+
+.insta{
+    color: #fff;
+}
+
+.insta:hover{
+    color: var(--second-color);
+    text-decoration: underline;
+}

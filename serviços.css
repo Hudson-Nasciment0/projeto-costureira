@@ -10,8 +10,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: auto;
     flex-wrap: wrap;
-    gap: 2rem;
+    width: 70%;
+    gap: 3rem;
 }
 
 .serviços-container .serviços-box{
@@ -37,4 +39,5 @@
 .serviços-box p{
     font-size: 1.3rem;
     margin: 1rem 0 3rem;
+    text-align: justify;
 }
