@@ -7,7 +7,7 @@
     gap: 20px;
     width: 34rem;
     position: fixed;
-    left: -316px;
+    left: -340px;
     transition: left 1s linear;
     z-index: 4;
     
@@ -17,8 +17,9 @@
     background: transparent;
     color: red;
     position: relative;
-    left: 49%;
-    top: -5px;
+    left: 11.5%;
+    bottom: 145px;
+    z-index: 5;
    }
 
 input{

@@ -16,7 +16,7 @@ let sumirFormulario = document.querySelector(".fale-conosco")
 console.log(sumirFormulario)
 
 function sumir(){
-    sumirFormulario.style.left = "-316px"
+    sumirFormulario.style.left = "-340px"
     mascara.style.visibility = "hidden"
 }
 
@@ -80,7 +80,7 @@ telefone.addEventListener("input", () => {
 
     
     function fecharForm(){
-        fecharFormulario.style.left = "-316px"
+        fecharFormulario.style.left = "-340px"
         mascara.style.visibility = "hidden"
     }
 

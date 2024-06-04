@@ -1,12 +1,16 @@
 .about{
     display: flex;
+    flex-direction: column-reverse;
     justify-content: center;
     align-items: center;
     gap: 2rem;
+    
 }
 
 .about-img img{
     border-radius: 4px;
+    max-width: 95%;
+    
 }
 
 .about-content h2{
