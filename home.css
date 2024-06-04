@@ -11,14 +11,12 @@ strong{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 25rem;
+    gap: 15rem;
 }
 
 .home-img img{
-    border-radius: 4px;
-    width: 35rem;
-
-    
+    border-radius: 8px;
+    width: 35rem;    
 }
 
 .home-content h3{

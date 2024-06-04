@@ -3,14 +3,12 @@
     flex-direction: column-reverse;
     justify-content: center;
     align-items: center;
-    gap: 2rem;
-    
+    gap: 2rem;   
 }
 
 .about-img img{
     border-radius: 4px;
-    max-width: 95%;
-    
+    max-width: 95%;    
 }
 
 .about-content h2{
