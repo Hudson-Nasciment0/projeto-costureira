@@ -116,10 +116,7 @@ section {
         width: 70vw;
     }
 
-    .about img {
-        width: 70vw;
-    }
-
+    
     .serviços h2 {
         margin-bottom: 3rem;
     }
@@ -186,7 +183,9 @@ section {
         margin-left: -540px;
         bottom: 20%;
     }
-
+    
+    
+    
     .mascara-form {
         display: none;
 
