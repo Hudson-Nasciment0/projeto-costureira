@@ -2,7 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -14,24 +14,24 @@
     font-family: "Poppins", sans-serif;
 }
 
-:root{
+:root {
     --main-color: #c040ff;
     --second-color: #e2cee5;
 
     --three-color: #59c88b;
 }
 
-html{
+html {
     font-size: 62.5%;
     overflow-x: hidden;
 }
 
-section{
+section {
     min-height: 100vh;
     padding: 10rem 9% 2rem;
 }
 
-.heading{
+.heading {
     text-align: center;
     font-size: 3.3rem;
 }
@@ -39,32 +39,33 @@ section{
 /*BREAKPOINTS*/
 
 @media (max-width: 1200px) {
-    html{
+    html {
         font-size: 55%;
     }
 
-    .home-content{
+    .home-content {
         margin-top: 10%;
     }
 }
 
-@media (max-width: 1140px){
-    .home{
+@media (max-width: 1140px) {
+    .home {
         flex-direction: column;
-        }
+    }
 
     .about {
         flex-direction: column-reverse;
-        }
     }
+}
 
 @media (max-width: 1050px) {
-    .fale-conosco{
-        margin-left: -241px;}
+    .fale-conosco {
+        margin-left: -241px;
     }
+}
 
 @media (max-width: 991px) {
-    .header{
+    .header {
         padding: 2rem 3%;
         height: 16%;
     }
@@ -77,17 +78,17 @@ section{
         padding-bottom: 7rem;
     }
 
-    .galeria{
+    .galeria {
         padding-bottom: 7rem;
     }
 
-    .footer{
+    .footer {
         padding: 2rem 3%;
     }
 }
 
 @media (max-width: 768px) {
-    .navbar{
+    .navbar {
         position: absolute;
         top: 100%;
         left: 0;
@@ -99,148 +100,165 @@ section{
         display: none;
     }
 
-    .navbar.active{
+    .navbar.active {
         display: block;
     }
 
-    .navbar a{
+    .navbar a {
         display: block;
         font-size: 2rem;
         margin: 3rem 0;
     }
 
-    .home-img img{
+    .home-img img {
         width: 70vw;
     }
 
-    .about img{
+    .about img {
         width: 70vw;
     }
 
-    .serviços h2{
+    .serviços h2 {
         margin-bottom: 3rem;
     }
 
-    .galeria h2{
+    .galeria h2 {
         margin-bottom: 3rem;
     }
 
-    .galeria-container{
+    .galeria-container {
         grid-template-columns: repeat(2, 1fr);
     }
-    .fale-conosco{
+
+    .fale-conosco {
         margin-left: -413px;
-   
+
     }
 }
 
 /*BREAKPOINTS*/
 
-@media (max-width: 700px){
-    .galeria-box img{
+@media (max-width: 700px) {
+    .galeria-box img {
         height: 25rem;
     }
-    .endereço iframe{
+
+    .endereço iframe {
         width: 400px;
         height: 250px;
     }
-    .fale-conosco{
+
+    .fale-conosco {
         margin-left: -413px;
-   
+
     }
 }
 
 @media (max-width: 680px) {
-    .fale-conosco{
+    .fale-conosco {
         margin-left: -447px;
-   
+
     }
 }
 
-@media (max-width: 617px){
-    .galeria-container{
+@media (max-width: 617px) {
+    .galeria-container {
         grid-template-columns: 1fr;
     }
 }
 
 @media (max-width: 550px) {
-    .fale-conosco{
+
+    section.home {
+        margin-top: 35px;
+    }
+
+    .fale-conosco {
         margin-left: -540px;
-   
+
     }
 }
 
 @media (max-width: 450px) {
-    .fale-conosco{
+    .fale-conosco {
         margin-left: -540px;
-   
+        bottom: 20%;
     }
 
-    .mascara-form{
+    .mascara-form {
         display: none;
 
     }
-    
-    .logo{
+
+    .logo {
         width: 100px;
     }
-}
 
-@media (max-width: 450px) {
-    html{
+    html {
         font-size: 50%;
     }
+
+    iframe{
+        max-width: 90%;
+        
+    }
+    
 }
 
 @media (max-width: 390px) {
-    .fale-conosco{
+    .fale-conosco {
         margin-left: -540px;
+        bottom: 20%;
     }
 }
 
 @media (max-width: 380px) {
 
-    .fale-conosco{
+    .fale-conosco {
         margin-left: -545px;
     }
 }
 
 @media (max-width: 365px) {
 
-    .fale-conosco{
+    
+
+    .fale-conosco {
         margin-left: -565px;
     }
 
-    .home-img img{
-        width: 90vw;
-    }
-    
-
-    .about-img img{
+    .home-img img {
         width: 90vw;
     }
 
-    .footer{
+
+    .about-img img {
+        width: 90vw;
+    }
+
+    .footer {
         flex-direction: column-reverse;
     }
 
-    .footer p{
+    .footer p {
         text-align: center;
         margin-top: 2rem;
     }
 
-    @media (max-width: 335px){
+    @media (max-width: 335px) {
 
-        .fale-conosco{
+
+
+        .fale-conosco {
             margin-left: -593px;
         }
-}
-    
+    }
+
     @media (max-width: 300px) {
 
-        .fale-conosco{
+        .fale-conosco {
             margin-left: -598px;
         }
-}
+    }
 
 }

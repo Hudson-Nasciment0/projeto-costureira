@@ -31,9 +31,9 @@ function enviarWhatsApp() {
 
     else {
         const mensagem = `Nome: ${nome} - Telefone: ${telefone} - Digite sua necessidade: ${duvida}`
-        const numero = '5522981241625'
+        
 
-        window.open(`https://wa.me/${numero}?text=${mensagem}`, '_blank')
+        window.open(`https://wa.me/5522981241625?text=${mensagem}`,'_blank')
         // fecharForm()
     }
 
