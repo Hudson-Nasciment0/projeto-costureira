@@ -16,6 +16,8 @@
     <link rel="stylesheet" href="mascara.css">
     <link rel="shortcut icon" href="img/apple-icon-60x60.png" type="image/x-icon">
     <title>Afago Atelier</title>
+    <script defer src="./scrip.js"></script>
+    <script defer src="scroll.js"></script>
 </head>
 
 <body>
@@ -55,13 +57,13 @@
         <!--Formulário design-->
 
         
-        <form onsubmit="enviarWhatsApp()" class ="fale-conosco">
+        <form class ="fale-conosco">
             
-            <button onclick="fecharForm()" class="fechar-form"><i class='bx bx-x-circle'></i></button>
+            <button type="reset" onclick="fecharForm()" class="fechar-form"><i class='bx bx-x-circle'></i></button>
             <input placeholder="Seu nome:" type="text" id="nome" name="nome" required>
             <input placeholder="Seu telefone (Whatsapp):" type="tel" id="telefone" name="telefone" required>
             <textarea placeholder="Digite sua necessidade:" id="duvida" name="duvida" required></textarea>
-            <button type="submit" onclick="sumir()"  class="button-form">Enviar formulário</button>
+            <button onclick="enviarWhatsApp()"  class="button-form">Enviar formulário</button>
         </form>
 
         <div class="mascara-form"></div>
@@ -202,7 +204,8 @@
     <script src="https://unpkg.com/scrollreveal"></script>
 
 </body>
-<script src="./scrip.js"></script>
-<script src="scroll.js"></script>
+
 
 </html>
+
+
