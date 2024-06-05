@@ -17,8 +17,10 @@
 :root {
     --main-color: #c040ff;
     --second-color: #e2cee5;
+}
 
-    --three-color: #59c88b;
+body{
+    overflow-x: hidden;
 }
 
 html {
