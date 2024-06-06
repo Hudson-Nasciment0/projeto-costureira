@@ -15,6 +15,7 @@ strong{
 }
 
 .home-img img{
+    margin-top: 27px;
     border-radius: 8px;
     width: 35rem;    
 }
