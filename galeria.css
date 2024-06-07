@@ -42,3 +42,13 @@
         height: 15rem;
     }
 }
+
+@media (max-width: 450px){
+
+.galeria-container{
+    
+    grid-template-columns: repeat(2, 1fr);
+    
+    
+}
+}
