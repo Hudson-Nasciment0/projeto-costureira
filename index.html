@@ -65,7 +65,7 @@
 
             <button type="reset" onclick="fecharForm()" class="fechar-form"><i class='bx bx-x-circle'></i></button>
             <input placeholder="Seu nome:" type="text" id="nome" name="nome" required>
-            <input placeholder="Seu telefone (Whatsapp):" type="tel" id="telefone" name="telefone" required>
+            <input placeholder="Seu telefone (Whatsapp):" type="tel" id="telefone" name="telefone" required pattern=".{12,}">
             <textarea placeholder="Digite sua necessidade:" id="duvida" name="duvida" required></textarea>
             <button onclick="enviarWhatsApp()" class="button-form">Enviar formulário</button>
         </form>

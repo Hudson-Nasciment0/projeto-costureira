@@ -29,9 +29,13 @@ function enviarWhatsApp() {
         fecharForm()
     }
 
+    else if (telefone.length <= 14){
+        alert("insira um número maior que 11 digitos!")
+    }
+
     else {
         const mensagem = `Nome: ${nome} - Telefone: ${telefone} - Digite sua necessidade: ${duvida}`
-        
+       
 
         window.open(`https://wa.me/5522981241625?text=${mensagem}`,'_blank')
         // fecharForm()
